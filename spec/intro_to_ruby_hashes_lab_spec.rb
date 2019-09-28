@@ -2,11 +2,16 @@ require_relative 'spec_helper'
 require_relative '../intro_to_ruby_hashes_lab.rb'
 def base_hash
  apple = {
+<<<<<<< HEAD
    railroads: {}
+=======
+   railroads: "pieces"
+>>>>>>> 0eb6ae1913db317c97edd6fcb8e77040f75aebef
  }
 end
 def monopoly_with_second_tier
   apple = {
+<<<<<<< HEAD
    railroads: {
      pieces: 4
    }
@@ -16,6 +21,9 @@ def monopoly_with_third_tier
    railroads: {
      pieces: 4
    }
+=======
+   railroads: {}
+>>>>>>> 0eb6ae1913db317c97edd6fcb8e77040f75aebef
  }
 end
 describe "We can create complex, nested Hashes by implementing four methods:" do
